@@ -11,12 +11,12 @@ task :install => [:submodule_init, :submodules] do
   puts
 
   install_homebrew if RUBY_PLATFORM.downcase.include?("darwin")
-  install_rvm_binstubs
+  #install_rvm_binstubs
 
   # this has all the runcoms from this directory.
   file_operation(Dir.glob('git/*')) if want_to_install?('git configs (color, aliases)')
-  file_operation(Dir.glob('irb/*')) if want_to_install?('irb/pry configs (more colorful)')
-  file_operation(Dir.glob('ruby/*')) if want_to_install?('rubygems config (faster/no docs)')
+  #file_operation(Dir.glob('irb/*')) if want_to_install?('irb/pry configs (more colorful)')
+  #file_operation(Dir.glob('ruby/*')) if want_to_install?('rubygems config (faster/no docs)')
   file_operation(Dir.glob('ctags/*')) if want_to_install?('ctags config (better js/ruby support)')
   file_operation(Dir.glob('tmux/*')) if want_to_install?('tmux config')
   file_operation(Dir.glob('vimify/*')) if want_to_install?('vimification of command line tools')
@@ -150,6 +150,9 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
+  # hub - git + hub = github
+  # reattach-to-user-namespace - required to fix clipboard with tmux
+  # the_silver_searcher - said to be better than ack which is better than grep
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher}
   puts
   puts
