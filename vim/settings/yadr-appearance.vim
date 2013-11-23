@@ -14,7 +14,7 @@ if has("gui_running")
   autocmd VimEnter * set guitablabel=%N:\ %t\ %M
 
   set lines=60
-  set columns=190
+  set columns=100
 
   set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
 else
