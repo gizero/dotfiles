@@ -103,6 +103,8 @@ set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
+colorscheme solarized
+set background=dark
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
