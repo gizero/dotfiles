@@ -1,9 +1,8 @@
 " Make it beautiful - colors and fonts
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
-" move to .vimrc: was not working from here ?????
-"colorscheme solarized
-"set background=dark
+colorscheme solarized
+set background=dark
 
 if has("gui_running")
   "tell the term has 256 colors
