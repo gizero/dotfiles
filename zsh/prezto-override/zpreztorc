@@ -40,7 +40,8 @@ zstyle ':prezto:load' pmodule \
   'history-substring-search' \
   'ssh' \
   'tmux' \
-  'prompt'
+  'prompt' \
+  'node'
 
 #  'ruby' \
 
