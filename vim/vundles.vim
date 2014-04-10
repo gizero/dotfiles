@@ -36,7 +36,7 @@ Bundle "gmarik/vundle"
 
 " Html, Xml, Css, Markdown...
 "Bundle "claco/jasmine.vim"
-"Bundle "digitaltoad/vim-jade.git"
+Bundle "digitaltoad/vim-jade.git"
 "Bundle "groenewege/vim-less.git"
 "Bundle "itspriddle/vim-jquery.git"
 "Bundle "jtratner/vim-flavored-markdown.git"
