@@ -131,7 +131,7 @@ Bundle "bling/vim-airline.git"
 Bundle "jby/tmux.vim.git"
 
 " Linux kernel development
-Bundle "gizero/kernel-coding-style.git"
+Bundle "vivien/vim-linux-coding-style.git"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
