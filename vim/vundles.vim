@@ -53,7 +53,7 @@ Bundle "itspriddle/vim-jquery.git"
 "Bundle "mattn/gist-vim"
 "Bundle "skwp/vim-git-grep-rails-partial"
 "Bundle "tjennings/git-grep-vim"
-"Bundle "tpope/vim-fugitive"
+Bundle "tpope/vim-fugitive"
 "Bundle "tpope/vim-git"
 
 " General text editing improvements...
