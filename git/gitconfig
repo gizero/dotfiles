@@ -11,6 +11,7 @@
   frag = magenta bold
   old = red
   new = green
+	whitespace = red reverse
 [alias]
   # add
   a = add                           # add
