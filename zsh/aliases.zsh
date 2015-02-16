@@ -104,7 +104,7 @@ alias gbg='git bisect good'
 alias gbb='git bisect bad'
 
 # Common shell functions
-alias less='less -r'
+#alias less='less -r'
 alias tf='tail -f'
 alias l='less'
 alias lh='ls -alt | head' # see the last modified files
