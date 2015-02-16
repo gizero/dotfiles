@@ -1,4 +1,5 @@
-# set your user tokens as environment variables, such as ~/.secrets
+# use [include] section to import your user tokens or set them
+# as environment variables, such as ~/.secrets
 # See the README for examples.
 [color]
   ui = true
