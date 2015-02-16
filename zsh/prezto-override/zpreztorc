@@ -41,9 +41,9 @@ zstyle ':prezto:load' pmodule \
   'ssh' \
   'tmux' \
   'prompt' \
+  'ruby' \
   'node'
 
-#  'ruby' \
 
 #
 # Editor
