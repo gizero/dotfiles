@@ -31,7 +31,8 @@ Bundle "gmarik/vundle"
 
 " Other languages
 "Bundle "briancollins/vim-jst"
-"Bundle "pangloss/vim-javascript"
+Bundle "pangloss/vim-javascript"
+Bundle "othree/javascript-libraries-syntax.vim"
 "Bundle "rodjek/vim-puppet"
 
 " Html, Xml, Css, Markdown...
@@ -47,6 +48,9 @@ Bundle "itspriddle/vim-jquery.git"
 "Bundle "timcharper/textile.vim.git"
 "Bundle "tpope/vim-haml"
 "Bundle "wavded/vim-stylus"
+Bundle "bonsaiben/bootstrap-snippets"
+Bundle "matthewsimo/angular-vim-snippets"
+Bundle "meowgorithm/vim-venders"
 
 " Git related...
 "Bundle "gregsexton/gitv"
@@ -64,7 +68,6 @@ Bundle "tpope/vim-fugitive"
 Bundle "garbas/vim-snipmate.git"
 "Bundle "godlygeek/tabular"
 Bundle "honza/vim-snippets"
-Bundle "gizero/bootstrap-snippets"
 "Bundle "nelstrom/vim-visual-star-search"
 "Bundle "skwp/vim-easymotion"
 "Bundle "tomtom/tcomment_vim.git"
@@ -83,7 +86,7 @@ Bundle "MarcWeber/vim-addon-mw-utils.git"
 "Bundle "mattn/webapi-vim.git"
 "Bundle "rking/ag.vim"
 Bundle "scrooloose/nerdtree.git"
-"Bundle "scrooloose/syntastic.git"
+Bundle "scrooloose/syntastic.git"
 "Bundle "sjl/gundo.vim"
 "Bundle "skwp/YankRing.vim"
 "Bundle "skwp/greplace.vim"
@@ -126,6 +129,9 @@ Bundle "bling/vim-airline.git"
 "Bundle "vim-scripts/TagHighlight.git"
 "Bundle "bogado/file-line.git"
 Bundle "jby/tmux.vim.git"
+
+" Linux kernel development
+"Bundle "bhilburn/kernel-coding-style.git"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
