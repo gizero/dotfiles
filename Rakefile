@@ -27,7 +27,7 @@ task :install => [:submodule_init, :submodules] do
 
   Rake::Task["install_prezto"].execute
 
-  install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
+  install_fonts
 
   install_term_theme if RUBY_PLATFORM.downcase.include?("darwin")
 
@@ -162,7 +162,13 @@ def install_fonts
   puts "======================================================"
   puts "Installing patched fonts for Powerline."
   puts "======================================================"
-  run %{ cp -f $HOME/.yadr/fonts/* $HOME/Library/Fonts }
+  if RUBY_PLATFORM.downcase.include?("darwin")
+    run %{ cp -f $HOME/.yadr/fonts/* $HOME/Library/Fonts }
+  elsif RUBY_PLATFORM.downcase.include?("linux")
+    run %{ cp -f $HOME/.yadr/fonts/Monaco_Linux-Powerline.ttf $HOME/.fonts }
+  else
+    puts "Unknown plaftform"
+  end
   puts
 end
 
